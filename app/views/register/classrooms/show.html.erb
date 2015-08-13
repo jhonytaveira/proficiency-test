@@ -1,0 +1,34 @@
+<div class="container">
+  <div class="content">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="panel panel-info">
+          <div class="panel-heading">
+            <div class="panel-title"><strong>Matrícula</strong></div>
+          </div>
+          <div class="panel-body"></div>
+          <fieldset>
+            <div class="col-md-5">
+              <fieldset>
+                <b>Aluno: </b><%= resource.student %>
+              </fieldset>
+              <br>
+              <fieldset>
+                <b>Curso: </b><%= resource.course %>
+              </fieldset>
+              <br>
+              <fieldset>
+                <b>Data: </b><%= resource.entry_at %>
+              </fieldset>
+              <br>
+            </div>
+          </fieldset>
+        </div>
+        <div class="panel-footer">
+          <%= link_to 'Voltar', register_classrooms_path(id: resource), class: 'btn btn-danger btn-md' %>
+          <%= link_to 'Editar', edit_register_classroom_path(id: resource), class: 'btn btn-warning btn-md' %>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

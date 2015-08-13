@@ -1,0 +1,34 @@
+<div class="container">
+  <div class="content">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="panel panel-info">
+          <div class="panel-heading">
+            <div class="panel-title"><strong>Curso</strong></div>
+          </div>
+          <div class="panel-body"></div>
+          <fieldset>
+            <div class="col-md-5">
+              <fieldset>
+                <b>Nome: </b><%= resource.name %>
+              </fieldset>
+              <br>
+              <fieldset>
+                <b>Descrição: </b><%= resource.description %>
+              </fieldset>
+              <br>
+              <fieldset>
+                <b>Status: </b>  <%= resource.status_humanize %>
+              </fieldset>
+              <br>
+            </div>
+          </fieldset>
+        </div>
+        <div class="panel-footer">
+          <%= link_to 'Voltar', register_courses_path(id: resource), class: 'btn btn-danger btn-md' %>
+          <%= link_to 'Editar', edit_register_course_path(id: resource), class: 'btn btn-warning btn-md' %>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

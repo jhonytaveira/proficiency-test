@@ -1,0 +1,12 @@
+pt-BR:
+  activerecord:
+    models:
+      classroom:
+        one: 'Matrícula'
+        other: 'Matrículas'
+
+    attributes:
+      classroom:
+        course: 'Curso'
+        entry_at: 'Data'
+        student: 'Aluno'

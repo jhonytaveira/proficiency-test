@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ProficiencyTest</title>
+    <%= stylesheet_link_tag 'application' %>
+    <%= csrf_meta_tags %>
+  </head>
+  <body>
+    <%= javascript_include_tag 'application' %>
+    <header>
+      <nav class='navbar navbar-default'>
+        <a class='navbar-brand' href='#'>
+          <i><%= image_tag asset_path('image-1.jpg'), width: '50px' %></i><strong><span>Colégio</span></strong> </a>
+        <%= render 'layouts/flash_messages' %>
+        <ul class='nav'>
+        </ul>
+      </nav>
+    </header>
+      <%= render 'layouts/menu' %>
+    <%= yield %>
+  </body>
+</html>

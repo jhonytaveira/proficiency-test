@@ -1,0 +1,4 @@
+<%= f.input :student %>
+<%= f.input :course %>
+<%= f.input :entry_at, as: :string,
+  input_html: { value: I18n.l(Date.current), dimension: 2, readonly: true }%>

@@ -1,0 +1,14 @@
+pt-BR:
+  buttons:
+    add: "Adicionar"
+    convert: "Converter"
+    enter: 'Entrar'
+    edit: 'Editar'
+    finalize: "Finalizar"
+    next: "Próximo"
+    new: 'Cadastrar'
+    prev: "Anterior"
+    register: 'Cadastrar'
+    remove: "Remover"
+    search: 'Buscar'
+    save: "Salvar"

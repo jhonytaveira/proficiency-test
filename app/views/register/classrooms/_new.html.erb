@@ -1,0 +1,19 @@
+<div class="container">
+  <div class="content">
+    <% if resource.new_record? %>
+      <h1 class="format">Cadastrar Matrícula</h1>
+    <% else %>
+      <h1 class="format">Editar Matrícula</h1>
+    <% end %>
+    <br><br>
+    <%= simple_form_for resource,
+      url: resource.persisted? ? resource_path : collection_path,
+      method: resource.persisted? ? :put : :post do |f| %>
+        <%= render 'form', f: f %>
+        <div class="panel-footer">
+          <%= f.button :button, 'Salvar', class: 'btn btn-success btn-md' %>
+          <%= link_to 'Voltar', register_classrooms_path(id: resource), class: 'btn btn-danger btn-md' %>
+        </div>
+      <% end %>
+  </div>
+</div>
