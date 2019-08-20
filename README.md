@@ -49,6 +49,7 @@ resources used: ruby, rails, react, redux, activeStorage
 **3 -** Filling number products, the list total is updated                                                                                 
 **4 -** Tree menu with categories, subcategories and products                       
 **5 -** Images are stored local by rails active Storage
+
 **6 -** Query pagination per page
 
 # running tests
