@@ -62,5 +62,5 @@ resources used: ruby, rails, react, redux, activeStorage
 features test with rspec and capybara
 
 ```sh
-rspec spec
+rspec spec/features/
 ```
