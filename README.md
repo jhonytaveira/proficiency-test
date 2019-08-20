@@ -44,10 +44,13 @@ rails s
 
 resources used: ruby, rails, react, redux, activeStorage
 
-**1 -** Search products by name                                                                    
+**1 -** Search products by name    
+
 **2 -** Selecting products adding the quantity                                                                         
+
 **3 -** Filling number products, the list total is updated                                                                                 
 **4 -** Tree menu with categories, subcategories and products                       
+
 **5 -** Images are stored local by rails active Storage
 
 **6 -** Query pagination per page
