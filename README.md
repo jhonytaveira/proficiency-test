@@ -1,10 +1,14 @@
 ## GIFT LIST
 &nbsp;
 ### Installation
- Requires [Node.js](https://nodejs.org/) - version 10,
+ Requires [Node.js](https://nodejs.org/) - version 10
+ 
  [Yarn.js](https://yarnpkg.com/pt-BR/) - version 1.15.2
+ 
  [postgresql](https://www.postgresql.org/) version 9+
+ 
  Ruby version 2.5.3
+ 
  Rails version 5.2.3
  
 ```sh
