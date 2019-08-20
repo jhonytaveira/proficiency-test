@@ -12,7 +12,7 @@
    Rails version 5.2.3
  
 ```sh
-git clone git@gitlab42.com:riot/esports-push-notifications.git
+git clone https://github.com/jhonytaveira/gift_list.git
 cd gift_list/
 bundle install
 ```
