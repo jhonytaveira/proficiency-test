@@ -32,7 +32,6 @@ rails s
 
 ***Main resources used:*** ruby, rails, react, redux and activeStorage.
 
-resources used: ruby, rails, react, redux, activeStorage
 **1 -** Search products by name                                                                    
 **2 -** Selecting products adding the quantity                                                                         
 **3 -** Filling number products, the list total is updated                                                                                 
