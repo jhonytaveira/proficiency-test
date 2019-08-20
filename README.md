@@ -42,7 +42,6 @@ rails s
 
 ***Main resources used:*** ruby, rails, react, redux and activeStorage.
 
-resources used: ruby, rails, react, redux, activeStorage
 
 **1 -** Search products by name    
 
