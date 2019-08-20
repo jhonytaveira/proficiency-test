@@ -48,7 +48,9 @@ resources used: ruby, rails, react, redux, activeStorage
 
 **2 -** Selecting products adding the quantity                                                                         
 
-**3 -** Filling number products, the list total is updated                                                                                 
+**3 -** Filling number products, the list total is updated 
+
+
 **4 -** Tree menu with categories, subcategories and products                       
 
 **5 -** Images are stored local by rails active Storage
