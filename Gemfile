@@ -27,7 +27,7 @@ gem 'protected_attributes', '~> 1.0.9'
 #gem 'responders', '~> 2.1.0' # dependência do inherited_resources
 
 gem 'simple_form', '~> 3.1.0'
-gem 'haml', '~> 4.0.4'
+gem 'haml', '~> 5.1.2'
 
 gem 'enumerate_it', '~> 1.2.0'
 gem 'pg', '~> 0.17.1'
